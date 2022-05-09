@@ -827,11 +827,12 @@ padding-bottom: 2em;
 .contactgrid2 {
 	padding: 2em 0 0 17em;
 }
-.contactgrid2 input[type="submit"] {
+.contactgrid2 input[type="submit"], .nav-link-ext {
 	color: #28ae60;
 	background: none;
 	border: none;
 	font-size:15px;
+	font-weight: 600;
 	outline: none;
 	text-transform: uppercase;
 }
