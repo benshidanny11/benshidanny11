@@ -184,12 +184,12 @@ textarea {
   transform: translateY(-3px);
 }
 .btn--bg {
-  padding: 0.5rem 3rem;
+  padding: 1.5rem 8rem;
   font-size: 2rem;
 }
 .btn--med {
-  padding: 1.5rem 5rem;
-  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
 }
 .btn--theme {
   background: var(--primary-color);
@@ -200,7 +200,7 @@ textarea {
   background: #fff;
   border: 2px solid var(--primary-color);
   box-shadow: none;
-  padding: calc(1.5rem - 2px) calc(5rem - 2px);
+  padding: calc(1rem - 2px) calc(4rem - 2px);
 }
 
 .sec-pad {
