@@ -17,6 +17,12 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   </head>
   <body>
     <header class="header">
@@ -27,18 +33,23 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="#" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="#experience" class="header__link">
+                Experience
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#projects" class="header__link">
                 Projects
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="#contact" class="header__link"> Contact </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -77,7 +88,8 @@
         </div>
       </div>
     </header>
-    <section class="home-hero">
+    
+    <section class="home-hero anim-section">
       <div class="home-hero__content">
         <h1 class="heading-primary">Hey, My name is Daniel Urimubenshi</h1>
         <div class="home-hero__info">
@@ -86,6 +98,25 @@
         </div>
         <div class="home-hero__cta">
           <a class="btn btn--bg" href="https://drive.google.com/file/d/1FEwSjuF7P7bTpAAR9Ogxk6fRKKZk8WXI/view" target="_blank">Get my resume</a>
+        </div>
+        <div class="home-hero__socials-sm">
+          <div class="home-hero__socials-sm-inner ">
+            <div class="home-hero__social">
+              <a href="https://www.linkedin.com/in/daniel-urimubenshi-077162185/" class="home-hero__social-icon-link">
+                <i class="fa-brands fa-linkedin fa-3x"></i>
+              </a>
+            </div>
+            <div class="home-hero__social">
+              <a href="https://github.com/benshidanny11" class="home-hero__social-icon-link">
+                <i class="fa-brands fa-github fa-3x"></i>
+              </a>
+            </div>
+            <div class="home-hero__social">
+              <a href="https://twitter.com/DBenshi" class="home-hero__social-icon-link">
+                <i class="fa-brands fa-twitter fa-3x"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -105,6 +136,7 @@
           </a>
         </div>
       </div>
+      
     </section>
     <section id="about" class="about sec-pad">
       <div class="main-container">
@@ -112,23 +144,23 @@
           <span class="heading-sec__main">About Me</span>
         </h2>
         <div class="about__content">
-          <div class="about__content-main">
+          <div class="about__content-main direction-l">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hey! It's
-                <strong>Daniel Urimubensi</strong>
+                <strong>Daniel Urimubenshi</strong>
                 , a full-stack software developer! I can help you build a product, feature or website. Look through some of my work and experience! I am a hard-working, detail-oriented, self-motivated, software developer with 4+ years of experience.
               </p>
               <p class="about__content-details-para">
                 If you like what you see and have a project you need coded, don't hesitate to contact me.
               </p>
+              <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            
           </div>
-          <div class="about__content-skills">
+          <div class="about__content-skills direction-r">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
               <div class="skills__skill">HTML</div>
@@ -148,25 +180,25 @@
         </div>
       </div>
     </section>
-    <section class="experience">
+    <section class="experience" id="experience">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Experence</span>
+          <span class="heading-sec__main">Experience</span>
           <span class="heading-sec__sub">
            
           </span>
         </h2>
 
       </div>
-      <ul class="timeline">
+      <ul class="timeline" id="exp">
         <!-- Item 1 -->
-            <li>
-            <div class="direction-l">
+            <li >
+            <div class="direction-l" data-ani="fadeInRight">
               <div class="flag-wrapper">
                 <span class="flag wbg">Sep 2021 - Feb 2022</span>
               </div>
               <div class="desc">
-                <h3>Alight Rwanda - Coding assistant</h3>
+                <h3>Alight Rwanda - Coding Assistant</h3>
                 <ul class="about__content-details-para">
                   <li>Supervised the implementation of the ICT coding program where 100 trainees were trained in web development.</li>
                   <li>Led the development of the program course outline and schedules for each module.</li>
@@ -184,7 +216,7 @@
                 <span class="flag wbg">Sep 2020 - Aug 2021</span>
               </div>
               <div class="desc">
-                <h3>Quarks Group - Software developer</h3>
+                <h3>Quarks Group - Software Developer</h3>
                 <ul class="about__content-details-para">
                   <li>Significantly Contributed to designing and implementing different projects which helped ensure that the projects were ready to be deployed in production.</li>
                  
@@ -200,9 +232,9 @@
                 <span class="flag wbg"> May 2019 - Aug 2020</span>
               </div>
               <div class="desc">
-                <h3>Andela - Software developer(Intern)</h3>
+                <h3>Andela - Software Developer (Intern)</h3>
                 <ul class="about__content-details-para">
-                  <li>Significantly Contributed to designing and implementing different projects which helped ensure that the projects were ready to be deployed in production.</li>
+                  <li>Contributed to Front-end and backend projects using Node js, React, Redux, SASS,  and I integration of APIs.</li>
                  
                 </ul>
               </div>
@@ -212,16 +244,75 @@
           
         </ul>
     </section>
-    <section id="projects" class="projects od">
+    <section id="projects" class="projects anim-section">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-           For 4+ years I worked many projects using different technologies. The below are some them!
+           For 4+ years, I've worked on many projects using different technologies. Below are some of them!
           </span>
         </h2>
 
         <div class="projects__content">
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro9.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Eshuri app</h3>
+              <p class="projects__row-content-desc">
+                eShuri mentorship connects teachers and students for one on one video calls, instant assessments & instant messaging with the aim of supplimenting your educational needs.
+              </p>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.datasystems.eshuri"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="#"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro7.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tugeraneyo app</h3>
+              <p class="projects__row-content-desc">
+                TUGERANEYO is a platform linking Passengers and Private Drivers going in the same direction, for both to share the same vehicle and related Transport Costs equitably.
+              </p>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.danny.tugeraneyo"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/Tugeraneyo-web"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+          
           <div class="projects__card">
             <div class="projects__row-img-cont">
               <img
@@ -234,14 +325,20 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Dot Pharma</h3>
               <p class="projects__row-content-desc">
-               A web application that helps patients to order medicines online and meet doctors through chat and video calls
+                A web application that helps patients to order medicines online and meet doctors through chat and video calls
               </p>
-              <a
+              <div  class="project-btn-div">
+                <a
                 href="https://dotpharma.herokuapp.com/"
                 class="btn btn--med btn--theme"
                 target="_blank"
-                >See live demo</a
-              >
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/ZincDevs/dotpharma-fontend"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
             </div>
           </div>
 
@@ -257,13 +354,20 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">School MIS</h3>
               <p class="projects__row-content-desc">
-                A web application that helps schools to manage student's information and generate academic studemt reports automatically
+                A web application that helps schools to manage student's information and generate academic student reports automatically
               </p>
-              <a
+              <div class="project-btn-div">
+                <a
                 href="https://schoolmis.herokuapp.com/"
                 class="btn btn--med btn--theme"
                 target="_blank"
-                >See live demo</a>
+                > <i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/primarymisfrontend"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                > <i class="fa-solid fa-code"></i> See source code</a>
+              </div>
             </div>
           </div>
 
@@ -279,13 +383,50 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Cashbook app</h3>
               <p class="projects__row-content-desc">
-                It is a cross platform mobile application and helps user to track their daily money transactions
+                It is a cross-platform mobile application and helps the user to track their daily money transactions
               </p>
-              <a
+              <div class="project-btn-div">
+                <a
                 href="https://play.google.com/store/apps/details?id=com.kamosoft.my_expenses"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >See live demo</a>
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/personal_cashbook"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro7.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Daily nova</h3>
+              <p class="projects__row-content-desc">
+                Daily nova is an android application that combines news from different newspapers, fun vides, lyrics of brand new songs, lifestyles, and business theories
+                together in one platform. 
+              </p>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.danny.dailynova"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/dailynova"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
             </div>
           </div>
           
@@ -304,7 +445,8 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://formspree.io/f/xzbykgjg"
+          method="POST" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -314,6 +456,7 @@
                 class="contact__form-input"
                 name="name"
                 id="name"
+                required
               />
             </div>
             <div class="contact__form-field">
@@ -321,7 +464,7 @@
               <input
                 required
                 placeholder="Enter Your Email"
-                type="text"
+                type="email"
                 class="contact__form-input"
                 name="email"
                 id="email"
@@ -349,22 +492,6 @@
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/daniel-urimubenshi-077162185/">
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/benshidanny11">
-                <i class="fa-brands fa-github fa-2x"></i>
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/DBenshi">
-                <i class="fa-brands fa-twitter fa-2x"></i>
-              </a>
-            </div>
-          </div>
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Daniel Urimubenshi</h4>
             <p class="main-footer__short-desc">
