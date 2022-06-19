@@ -217,12 +217,22 @@ textarea {
   font-size: 2.2rem;
   text-align: center;
   line-height: 1.6;
+  height: 4rem;
 }
 
 .typed-cursor--blink {
   line-height: 1.6;
   color: var(--secondary-color);
   font-size: 2.2rem;
+  height: 4rem;
+}
+
+.fa-brands:hover {
+ color: #ffffff;
+ background-color: rgb(45, 2, 146);
+ cursor: pointer;
+ box-shadow: 0 0 20px rgb(45, 2, 146);
+
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -390,6 +400,10 @@ textarea {
  height: auto;
 }
 
+.projects__card:hover {
+  cursor: pointer;
+}
+
 .project-btn-div {
   display: flex;
   flex-direction: column;
@@ -434,7 +448,7 @@ textarea {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 @media only screen and (max-width: 56.25em) {
   .projects__row-content {
@@ -457,6 +471,7 @@ textarea {
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
+  text-align: center;
 }
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {
@@ -915,11 +930,10 @@ textarea {
 
 .skills__skill:hover {
   background: var(--primary-color);
-  border-radius: 20px;
-  font-weight: 600;
   color: rgb(255, 255, 255);
   box-shadow: 0 2px rgba(170, 170, 170, 0.678);
   transition: 1s;
+  cursor: pointer;
 }
 
 .mouse {

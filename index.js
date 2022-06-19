@@ -97,21 +97,12 @@ function checkPosition() {
   }
 }
 
-[...document.getElementsByClassName("fa-brands")].forEach((element) => {
-  element.addEventListener("mouseenter", (e) => {
-    element.classList.add("animate__animated", "animate__rotateIn");
-    setTimeout(() => {
-      element.classList.remove("animate__animated", "animate__rotateIn");
-    }, 200);
-  });
-});
-
 [...document.getElementsByClassName('projects__card')].forEach((element) => {
   element.addEventListener("mouseenter", (e) => {
-    element.classList.add("animate__animated", "animate__pulse");
+    element.classList.add("animate__animated", "animate__zoomIn");
     setTimeout(() => {
-      element.classList.remove("animate__animated", "animate__pulse");
-    }, 200);
+      element.classList.remove("animate__animated", "animate__zoomIn");
+    }, 1000);
   });
 });
 
