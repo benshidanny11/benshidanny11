@@ -10,6 +10,7 @@ Hi, I'm Daniel Urimubenshi, I'm a hard-working, detail-oriented full-stack softw
 <code><img height="36" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
 
 <code><img height="36" src="https://github.com/voodootikigod/logo.js/blob/master/js.png"></code>
+<code><img height="36" src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png"></code>
 <code><img height="36" src="https://www.pngfind.com/pngs/m/74-744138_mysql-logo-png-mysql-transparent-png.png"></code>
 <code><img height="36" src="https://github.com/react-icons/react-icons/blob/master/react-icons.svg"></code>
 <code><img height="36" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"></code>
