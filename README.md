@@ -8,10 +8,12 @@ Hi, I'm Daniel Urimubenshi, I'm a hard-working, detail-oriented full-stack softw
 <code><img height="36" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="36" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 <code><img height="36" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
+
 <code><img height="36" src="https://github.com/voodootikigod/logo.js/blob/master/js.png"></code>
 <code><img height="36" src="https://www.pngfind.com/pngs/m/74-744138_mysql-logo-png-mysql-transparent-png.png"></code>
 <code><img height="36" src="https://github.com/react-icons/react-icons/blob/master/react-icons.svg"></code>
 <code><img height="36" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"></code>
+<code><img height="36" src="https://user-images.githubusercontent.com/51419598/152648731-567997ec-ac1c-4a9c-a816-a1fb1882abbe.png"></code>
 
 ### Tools & Methods
 
@@ -25,5 +27,5 @@ Hi, I'm Daniel Urimubenshi, I'm a hard-working, detail-oriented full-stack softw
 - :zap: Twitter:[@Urimubenshi Daniel](https://twitter.com/DBenshi)
 - :zap: LinkedIn:[@Daniel Urimubenshi](https://www.linkedin.com/in/daniel-urimubenshi-077162185/)
 - :zap: Website:[@Click here](https://benshidanny11.github.io/benshidanny11/)
- 
+
  <img align="left" src="https://github-readme-stats.vercel.app/api/?username=benshidanny11&show_icons=true&hide_border=true" />
