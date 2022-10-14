@@ -15,6 +15,7 @@ Hi, I'm Daniel Urimubenshi, I'm a hard-working, detail-oriented full-stack softw
 <code><img height="36" src="https://github.com/react-icons/react-icons/blob/master/react-icons.svg"></code>
 <code><img height="36" src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"></code>
 <code><img height="36" src="https://user-images.githubusercontent.com/51419598/152648731-567997ec-ac1c-4a9c-a816-a1fb1882abbe.png"></code>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=benshidanny11&layout=compact)](https://github.com/benshidanny11/github-readme-stats)
 
 ### Tools & Methods
 
