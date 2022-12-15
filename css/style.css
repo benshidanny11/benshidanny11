@@ -1,7 +1,5 @@
 @import url(./theme.css);
-*,
-*::after,
-*::before {
+body {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -213,7 +211,7 @@ textarea {
 }
 
 .text-primary {
-  color: var(--secondary-color);
+  color: var(--primary-dark-color);
   font-size: 2.2rem;
   text-align: center;
   line-height: 1.6;
@@ -247,9 +245,25 @@ textarea {
 
 .home-hero {
   color: var(--primary-color);
-  min-height: 80rem;
+  /* min-height: 80rem; */
   position: relative;
 }
+
+.hero-inner-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.home-hero__content {
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+  /* max-width: 90rem; */
+  /* width: 92%; */
+  display: block;
+}
+
 @media only screen and (max-width: 37.5em) {
   .home-hero {
     height: unset;
@@ -275,12 +289,49 @@ textarea {
  width: 70%;
 }
 
+.bio-container {
+  /* margin-top: 5rem; */
+}
+
+.li-tech {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: disc !important;
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.li-tech> li {
+  font-size: 10px !important;
+  background-color: rgb(238, 238, 238);
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: none;
   }
   .home-hero__socials-sm {
     display: flex;
+  }
+  .hero-inner-container {
+    display: block;
+  }
+  .hero-img-conainer {
+    display: flex;
+    justify-content: center;
+  }
+  .heading-primary{
+    font-size: 2.5rem;
+  }
+  .text-primary {
+    color: var(--primary-dark-color);
+    font-size: 1.8rem;
   }
 }
 
@@ -299,18 +350,9 @@ textarea {
 .home-hero__social-icon {
   width: 100%;
 }
-
-.home-hero__content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 90rem;
-  width: 92%;
-}
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
-    padding: 19rem 0 13rem 0;
+    padding: 3rem 0 13rem 0;
     margin: auto;
     position: static;
     transform: translate(0, 0);

@@ -15,7 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"> -->
     <link
@@ -90,38 +89,46 @@
     </header>
     
     <section class="home-hero anim-section">
-      <div>
-        <img src="./assets/png/hero.png" alt="">
-      </div>
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is Daniel Urimubenshi</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-          </p>
+      <div class="hero-inner-container">
+        <div class="hero-img-conainer">
+          <img src="./assets/png/hero.png" alt="">
         </div>
-        <div class="home-hero__cta">
-          <a class="btn btn--bg" href="https://drive.google.com/file/d/1FEwSjuF7P7bTpAAR9Ogxk6fRKKZk8WXI/view" target="_blank">Get my resume</a>
-        </div>
-        <div class="home-hero__socials-sm">
-          <div class="home-hero__socials-sm-inner ">
-            <div class="home-hero__social">
-              <a href="https://www.linkedin.com/in/daniel-urimubenshi-077162185/" class="home-hero__social-icon-link">
-                <i class="fa-brands fa-linkedin fa-3x"></i>
-              </a>
-            </div>
-            <div class="home-hero__social">
-              <a href="https://github.com/benshidanny11" class="home-hero__social-icon-link">
-                <i class="fa-brands fa-github fa-3x"></i>
-              </a>
-            </div>
-            <div class="home-hero__social">
-              <a href="https://twitter.com/DBenshi" class="home-hero__social-icon-link">
-                <i class="fa-brands fa-twitter fa-3x"></i>
-              </a>
+        
+        <div class="home-hero__content">
+          <h1 class="heading-primary">Hey, My name is Daniel Urimubenshi</h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+                I am a full-stack software engineer aspiring to become a world-class developer. I apply creative thinking and adapt to changes. I am looking for my next amazing remote opportunity.
+            </p>
+          </div>
+
+          <div class="home-hero__cta">
+            <a class="btn btn--bg" href="https://drive.google.com/file/d/1FEwSjuF7P7bTpAAR9Ogxk6fRKKZk8WXI/view" target="_blank">Get my resume</a>
+          </div>
+       
+
+          <div class="home-hero__socials-sm">
+            <div class="home-hero__socials-sm-inner ">
+              <div class="home-hero__social">
+                <a href="https://www.linkedin.com/in/daniel-urimubenshi-077162185/" class="home-hero__social-icon-link">
+                  <i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+              </div>
+              <div class="home-hero__social">
+                <a href="https://github.com/benshidanny11" class="home-hero__social-icon-link">
+                  <i class="fa-brands fa-github fa-3x"></i>
+                </a>
+              </div>
+              <div class="home-hero__social">
+                <a href="https://twitter.com/DBenshi" class="home-hero__social-icon-link">
+                  <i class="fa-brands fa-twitter fa-3x"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="home-hero__socials">
         <div class="home-hero__social">
           <a href="https://www.linkedin.com/in/daniel-urimubenshi-077162185/" class="home-hero__social-icon-link">
@@ -140,6 +147,227 @@
         </div>
       </div>
       
+    </section>
+    <section id="projects" class="projects">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+           For 4+ years, I've worked on many projects using different technologies. Below are some of them!
+          </span>
+        </h2>
+
+        <div class="projects__content">
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro9.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Eshuri App</h3>
+              <p class="projects__row-content-desc">
+                Eshuri mentorship connects teachers and students for one on one video calls, instant assessments & instant messaging with the aim of supplimenting your educational needs.
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>Flutter</li>
+                <li>Cloud firestore</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.datasystems.eshuri"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/erangaapp.git"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro7.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tugeraneyo App</h3>
+              <p class="projects__row-content-desc">
+                Tugeraneyo App is a platform linking passengers and private drivers going in the same direction, for both to share the same vehicle and related transport costs equitably.
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>Java (Android studio)</li>
+                <li>Cloud firestore</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.danny.tugeraneyo"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/Tugeraneyo-web"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro5.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Dot Pharma</h3>
+              <p class="projects__row-content-desc">
+                A web application that helps patients to order medicines online and meet doctors through chat and video calls
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>Node js</li>
+                <li>React js & Redux </li>
+                <li>Postgresql</li>
+              </ul>
+              <div  class="project-btn-div">
+                <a
+                href="https://dotpharma.herokuapp.com/"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/ZincDevs/dotpharma-fontend"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro3.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Salax concert</h3>
+              <p class="projects__row-content-desc">
+                This is an online website for buying tickets for salax award event. By using this project user is able to see all secheduled events, all nominated artists, view the agenda of event.
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-btn-div">
+                <a
+                href="https://benshidanny11.github.io/consert_page/"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                > <i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/consert_page"
+                class="btn btn--med btn--theme"
+                target="_blank"
+                > <i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro4.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cashbook App</h3>
+              <p class="projects__row-content-desc">
+                It is a cross-platform mobile application and helps the user to track their daily money transactions
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>Flutter</li>
+                <li>Cloud firestore</li>
+              </ul>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.kamosoft.my_expenses"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/personal_cashbook"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/pro10.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Daily Nova</h3>
+              <p class="projects__row-content-desc">
+                Daily nova is an android application that combines news from different newspapers, fun vides, lyrics of brand new songs, lifestyles, and business theories
+                together in one platform. 
+              </p>
+              <ul class="projects__row-content-desc li-tech">
+                <li>Java (Android studio)</li>
+                <li>Cloud firestore</li>
+              </ul>
+              <div class="project-btn-div">
+                <a
+                href="https://play.google.com/store/apps/details?id=com.danny.dailynova"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-eye"></i> See live demo</a>
+                <a
+                href="https://github.com/benshidanny11/dailynova"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i> See source code</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+        </div>
+      </div>
     </section>
     <section id="about" class="about sec-pad">
       <div class="main-container">
@@ -183,6 +411,7 @@
         </div>
       </div>
     </section>
+
     <section class="experience" id="experience">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -247,198 +476,7 @@
           
         </ul>
     </section>
-    <section id="projects" class="projects">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-           For 4+ years, I've worked on many projects using different technologies. Below are some of them!
-          </span>
-        </h2>
-
-        <div class="projects__content">
-
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro9.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Eshuri App</h3>
-              <p class="projects__row-content-desc">
-                Eshuri mentorship connects teachers and students for one on one video calls, instant assessments & instant messaging with the aim of supplimenting your educational needs.
-              </p>
-              <div class="project-btn-div">
-                <a
-                href="https://play.google.com/store/apps/details?id=com.datasystems.eshuri"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="#"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro7.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Tugeraneyo App</h3>
-              <p class="projects__row-content-desc">
-                Tugeraneyo App is a platform linking passengers and private drivers going in the same direction, for both to share the same vehicle and related transport costs equitably.
-              </p>
-              <div class="project-btn-div">
-                <a
-                href="https://play.google.com/store/apps/details?id=com.danny.tugeraneyo"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="https://github.com/benshidanny11/Tugeraneyo-web"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro5.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Dot Pharma</h3>
-              <p class="projects__row-content-desc">
-                A web application that helps patients to order medicines online and meet doctors through chat and video calls
-              </p>
-              <div  class="project-btn-div">
-                <a
-                href="https://dotpharma.herokuapp.com/"
-                class="btn btn--med btn--theme"
-                target="_blank"
-                ><i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="https://github.com/ZincDevs/dotpharma-fontend"
-                class="btn btn--med btn--theme"
-                target="_blank"
-                ><i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro2.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">School MIS</h3>
-              <p class="projects__row-content-desc">
-                A web application that helps schools to manage student's information and generate academic student reports automatically
-              </p>
-              <div class="project-btn-div">
-                <a
-                href="https://schoolmis.herokuapp.com/"
-                class="btn btn--med btn--theme"
-                target="_blank"
-                > <i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="https://github.com/benshidanny11/primarymisfrontend"
-                class="btn btn--med btn--theme"
-                target="_blank"
-                > <i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro4.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Cashbook App</h3>
-              <p class="projects__row-content-desc">
-                It is a cross-platform mobile application and helps the user to track their daily money transactions
-              </p>
-              <div class="project-btn-div">
-                <a
-                href="https://play.google.com/store/apps/details?id=com.kamosoft.my_expenses"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="https://github.com/benshidanny11/personal_cashbook"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="projects__card">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/pro10.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Daily Nova</h3>
-              <p class="projects__row-content-desc">
-                Daily nova is an android application that combines news from different newspapers, fun vides, lyrics of brand new songs, lifestyles, and business theories
-                together in one platform. 
-              </p>
-              <div class="project-btn-div">
-                <a
-                href="https://play.google.com/store/apps/details?id=com.danny.dailynova"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-eye"></i> See live demo</a>
-                <a
-                href="https://github.com/benshidanny11/dailynova"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                ><i class="fa-solid fa-code"></i> See source code</a>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      
-        </div>
-      </div>
-    </section>
+    
     <section id="contact" class="contact">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
