@@ -37,19 +37,6 @@ headerLogoConatiner.addEventListener("click", () => {
   location.href = "index.html";
 });
 
-var options = {
-  strings: [
-    "",
-    "A full-stack developer with 4+ years of experience",
-    "Want to build amasing projects?",
-    "Don't hesitate to contact me",
-    "I am available at anytime and looking for remote opportunities",
-  ],
-  typeSpeed: 100,
-};
-
-new Typed(".text-primary", options);
-
 function checkPosition() {
 
 

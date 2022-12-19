@@ -211,7 +211,7 @@ textarea {
 }
 
 .text-primary {
-  color: var(--primary-dark-color);
+  color: #777;
   font-size: 2.2rem;
   text-align: center;
   line-height: 1.6;
@@ -482,6 +482,7 @@ textarea {
 }
 .projects__row-img {
   width: 100%;
+  height: 200px;
   display: block;
   object-fit: cover;
 }
