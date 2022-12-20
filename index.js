@@ -84,14 +84,14 @@ function checkPosition() {
   }
 }
 
-[...document.getElementsByClassName('projects__card')].forEach((element) => {
-  element.addEventListener("mouseenter", (e) => {
-    element.classList.add("animate__animated", "animate__zoomIn");
-    setTimeout(() => {
-      element.classList.remove("animate__animated", "animate__zoomIn");
-    }, 1000);
-  });
-});
+// [...document.getElementsByClassName('projects__card')].forEach((element) => {
+//   element.addEventListener("mouseenter", (e) => {
+//     element.classList.add("animate__animated", "animate__zoomIn");
+//     setTimeout(() => {
+//       element.classList.remove("animate__animated", "animate__zoomIn");
+//     }, 1000);
+//   });
+// });
 
 window.addEventListener("scroll", checkPosition);
 
